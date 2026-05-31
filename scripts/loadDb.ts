@@ -16,18 +16,6 @@ const {
   OPENAI_API_KEY 
 } = process.env
 
-// Add validation to see what's loaded
-console.log("Environment variables loaded:", {
-  hasNamespace: !!ASTRA_DB_NAMESPACE,
-  hasCollection: !!ASTRA_DB_COLLECTION,
-  hasEndpoint: !!ASTRA_DB_API_ENDPOINT,
-  hasToken: !!ASTRA_DB_APPLICATION_TOKEN,
-  hasOpenAIKey: !!OPENAI_API_KEY
-})
-
-if (!ASTRA_DB_API_ENDPOINT || !ASTRA_DB_APPLICATION_TOKEN) {
-  throw new Error("Missing required Astra DB environment variables")
-}
 
 const openai = new OpenAI({ apiKey: OPENAI_API_KEY })
 
