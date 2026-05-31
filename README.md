@@ -2,7 +2,7 @@
 
 A RAG (Retrieval-Augmented Generation) chatbot for Formula One fans, built with Next.js. Ask anything about F1 and get answers grounded in up-to-date data scraped from Wikipedia and the official Formula 1 website.
 
-<img width="1919" height="914" alt="image" src="https://github.com/user-attachments/assets/f7136e83-0fa4-435c-8182-2f98802ed4f2" />
+[<img width="1919" height="914" alt="image" src="https://github.com/user-attachments/assets/f7136e83-0fa4-435c-8182-2f98802ed4f2" />](https://nextjs-f1gpt-one.vercel.app/)
 
 ## How it works
 
