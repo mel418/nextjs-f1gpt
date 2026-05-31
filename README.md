@@ -2,6 +2,8 @@
 
 A RAG (Retrieval-Augmented Generation) chatbot for Formula One fans, built with Next.js. Ask anything about F1 and get answers grounded in up-to-date data scraped from Wikipedia and the official Formula 1 website.
 
+<img width="1919" height="914" alt="image" src="https://github.com/user-attachments/assets/f7136e83-0fa4-435c-8182-2f98802ed4f2" />
+
 ## How it works
 
 1. **Scrape & embed** — `scripts/loadDb.ts` uses Puppeteer to scrape F1 pages, splits the text into chunks, and generates vector embeddings via OpenAI's `text-embedding-3-small` model.
